@@ -1,0 +1,27 @@
+<h2>CANDIDATES</h2>
+
+<div class="container">
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>USERNAME</th>
+    <th>EMAIL</th>
+    <th>PHONE NUMBER</th>
+    <th></th>
+  </tr>
+  <tr *ngFor="let data of candidates">
+    <td>{{data.id}}</td>
+    <td>{{data.name}}</td> 
+    <td>{{data.username}}</td> 
+    <td>{{data.email}}</td> 
+    <td>{{data.phone}}</td>
+    <td>    
+      <a routerLink="/detail/{{data.id}}">
+      <span>DETAIL</span> 
+     </a>
+    </td>
+  </tr>
+</table>
+</div>
+

@@ -1,0 +1,23 @@
+<h2> DETAIL OF CANDIDATES</h2>
+<div *ngIf="candidate" class="container">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>USERNAME</th>
+            <th>EMAIL</th>
+            <th>PHONE NUMBER</th>
+            <th>WEBSITE</th>
+            <th>CITY</th>
+        <tr>
+          <td>{{candidate.id}}</td>
+          <td>{{candidate.name}}</td> 
+          <td>{{candidate.username}}</td> 
+          <td>{{candidate.email}}</td> 
+          <td>{{candidate.phone}}</td>
+          <td>{{candidate.website}}</td>
+          <td>{{candidate.address.city}}</td>
+        </tr>
+      </table>
+
+  </div> 
