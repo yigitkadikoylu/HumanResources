@@ -1,6 +1,7 @@
 # Candidates
 PROJEYI CLONE YAPILIR
 terminalde npm install denerek node_modules olusur.
+ng serve --o denerek
 proje ayaga kaldirilir.
 
 
